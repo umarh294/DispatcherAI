@@ -99,6 +99,7 @@ def seed_metro_dispatch_graph():
     conn.commit()
     cursor.close()
     conn.close()
+    #Successful completion message
     print("🏆 Success! 'DispatcherAI' topological road map database is fully seeded!")
 
 if __name__ == "__main__":
